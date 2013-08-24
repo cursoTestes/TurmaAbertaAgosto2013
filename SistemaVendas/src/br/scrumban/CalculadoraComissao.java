@@ -2,7 +2,7 @@ package br.scrumban;
 
 public class CalculadoraComissao {
 
-	public static double calcula(double valorVenda) {
+	public  double calcula(double valorVenda) {
 		double valorComissao;
 		if(valorVenda > 10000)
 			valorComissao = (valorVenda * 6) / 100;
